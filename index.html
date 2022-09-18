@@ -142,7 +142,7 @@
       <button id="button-active" onclick="mudarPortIdvisuais()">Id Visuais</button>
     </div>
 
-    
+    <!-------- ARTES --------->
     <section class="box-port" id="artes">
       <ul class="list-port">
         <li>
@@ -171,9 +171,53 @@
         </li>
       </ul>
   
-      <button class="btn-all"> Ver mais</button>
+      <button onclick="openModalArtes()" class="btn-all"> Ver mais</button>
+
+      <div id="modalArtes" class="modals">
+
+        <i onclick="closeModal()" id="closeModal" class="fas fa-times"></i>
+  
+        <h1>Todas as Artes</h1>
+        <ul class="list-port">
+          <li>
+            <img src="assets/img/portfolio/Artes/asas.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/Artes/caipirinha.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/Artes/dfb.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/Artes/Hamburgueria - (1).png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/Artes/jhu.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/Artes/lok.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/Artes/O mais pedido.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/Artes/Sabor em dobro.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/Artes/sdsd.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/Artes/sf.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/Artes/wewr.png" alt="asas">
+          </li>
+        </ul>
+      </div>
+
     </section>
 
+    <!-------- CARDÁPIOS --------->
     <section class="box-port" id="cardapios">
       <ul class="list-port">
         <li>
@@ -201,8 +245,10 @@
           <h1>Em breve</h1>
         </li>
       </ul>
+      
     </section>
 
+    <!-------- IDVISUAIS --------->
     <section class="box-port" id="idvisuais">
       <ul class="list-port">
         <li>
@@ -231,7 +277,87 @@
         </li>
       </ul>
   
-      <button class="btn-all"> Ver mais</button>
+      <button onclick="openModalIdVisuais()" class="btn-all"> Ver mais</button>
+
+      <!-------- MODAL --------->
+      <div id="modalIdVisuais" class="modals">
+
+        <i onclick="closeModal()" id="closeModal" class="fas fa-times"></i>
+  
+        <h1>Todas as Artes</h1>
+        <ul class="list-port">
+          <!--- CRIS VARGAS ---->
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Cris Vargas/MC1.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Cris Vargas/proposta cris vargas mkt.png" alt="asas">
+          </li>
+          <!--- ENOUGH DREAMS ---->
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Enough Dreams/Adesivos.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Enough Dreams/Capa Disco.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Enough Dreams/Copo Bucks.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Enough Dreams/Man Shirt.png" alt="asas">
+          </li>
+          <li id="noneImage">
+            <img src="assets/img/portfolio/ID VISUAIS/Enough Dreams/Outdoor.png" alt="asas">
+          </li>
+          <!--- FÉLIX DELIVERY ---->
+          <li id="noneImage">
+            <img src="assets/img/portfolio/ID VISUAIS/Félix Delivery/Ap1.png" alt="asas">
+          </li>
+          <li id="noneImage">
+            <img src="assets/img/portfolio/ID VISUAIS/Félix Delivery/Double A4 Flyer poster mockup.png" alt="asas">
+          </li>
+          <li id="noneImage">
+            <img src="assets/img/portfolio/ID VISUAIS/Félix Delivery/Vehicle PSD Mockup.png" alt="asas">
+          </li>
+          <!--- FÉLIX SPORTS ---->
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Félix Sports/Capa facebook.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Félix Sports/Feedback.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Félix Sports/Pagamentos.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Félix Sports/Perfil Felix.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Félix Sports/Produtos (2).png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Félix Sports/promocaa.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Félix Sports/Ícone Perfil fb.png" alt="asas">
+          </li>
+          <!--- NEW LOOK ---->
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/New Look/cards.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/New Look/MCK 2.png" alt="asas">
+          </li>
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/New Look/Mck4.png" alt="asas">
+          </li>
+          <!--- SANTIAGO---->
+          <li>
+            <img src="assets/img/portfolio/ID VISUAIS/Santiago/7.png" alt="asas">
+          </li>
+        </ul>
+      </div>
+
     </section>
 
   </section>
