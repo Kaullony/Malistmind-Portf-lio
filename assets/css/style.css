@@ -928,8 +928,8 @@ footer ul a svg{
 
   .list-port li{
 
-    width: 210px;
-    height: 210px;
+    width: 32%;
+    height: 52%;
   }
 
   #noneImage{
@@ -1042,18 +1042,18 @@ footer ul a svg{
 
   .sobre figure{
 
-    height: 400px;
+    height: 400%;
     height: 50%;
   }
 
   .sobre figure img{
 
-    width: 375px;
+    width: 210%;
     height: 380px;
   }
 
   .sobre figure div{
-    width: 375px;
+    width: 210%;
     border-radius: 5px;
   }
 
@@ -1095,8 +1095,8 @@ footer ul a svg{
 
   .list-port li{
 
-    width: 180px;
-    height: 180px;
+    width: 48.5%;
+    height: 40.5%;
   }
 
   .noneImage{
@@ -1153,12 +1153,12 @@ footer ul a svg{
 
   .sobre figure img{
 
-    width: 330px;
+    width: 210%;
     height: 380px;
   }
 
   .sobre figure div{
-    width: 330px;
+    width: 210%;
     border-radius: 5px;
   }
 
@@ -1173,7 +1173,7 @@ footer ul a svg{
   /****** PORTFOLIO ********/
   .list-port li{
 
-    width: 160px;
+    width: 47%;
     height: 160px;
   }
 
@@ -1243,12 +1243,12 @@ footer ul a svg{
 
   .sobre figure img{
 
-    width: 285px;
+    width: 210%;
     height: 285px;
   }
 
   .sobre figure div{
-    width: 285px;
+    width: 210%;
     border-radius: 5px;
   }
 
@@ -1276,7 +1276,7 @@ footer ul a svg{
   /****** PORTFOLIO ********/
   .list-port li{
 
-    width: 135px;
+    width: 47.4%;
     height: 160px;
   }
 
