@@ -9,21 +9,20 @@ window.addEventListener("scroll", function(){
 
 $('.carrossel').slick({
   dots: false,
-  infinite: false,
+  infinite: true,
   arrows: false,
   speed: 300,
-  autoplay: false,
+  autoplay: true,
   slidesToShow: 3,
-  infinite: true,
   slidesToScroll: 3,
+  infinite: true,
   responsive: [
     {
-      breakpoint: 1025,
+      breakpoint: 1024,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
-        dots: false
       }
     },
     {
@@ -31,40 +30,36 @@ $('.carrossel').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        autoplay: true
+        infinite: true,
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 426,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true
+        infinite: true,
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 
 $('.carrtwo').slick({
   dots: false,
-  infinite: false,
+  infinite: true,
   arrows: false,
   speed: 300,
-  autoplay: false,
+  autoplay: true,
   slidesToShow: 3,
   infinite: true,
   slidesToScroll: 3,
   responsive: [
     {
-      breakpoint: 1025,
+      breakpoint: 1024,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
-        dots: false
       }
     },
     {
@@ -72,20 +67,17 @@ $('.carrtwo').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        autoplay: true
+        infinite: true,
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 426,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true
+        infinite: true,
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 
