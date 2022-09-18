@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-------- LINK CSS --------->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!----- LINK SLICK JS ------>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <!-------- FAVICON --------->
+  <link rel="shortcut icon" href="assets/img/logo/ICON.png" type="image/x-icon">
+  <!-------- FONTAWESSOME LINK --------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-------- TITLE --------->
+  <title>Malistmind</title>
+</head>
+<body>
+
+  <!-------- MENU --------->
+  <nav class="menu">
+    
+    <figure>
+      <img src="assets/img/logo/ICON.png" alt="logo malistmind">
+      <h1>Malistmind</h1>
+    </figure>
+
+    <ul id="menu">
+      <a href="#home">Home</a>
+      <a href="#services">Serviços</a>
+      <a href="#about">Sobre</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#feedback">Feedbacks</a>
+      <a href="#contact">Contatos</a>
+    </ul>
+
+    <ul id="menuResponsivo">
+      <a onclick="linkfecharmenu()" href="#home">Home</a>
+      <a onclick="linkfecharmenu()" href="#services">Serviços</a>
+      <a onclick="linkfecharmenu()" href="#about">Sobre</a>
+      <a onclick="linkfecharmenu()" href="#portfolio">Portfólio</a>
+      <a onclick="linkfecharmenu()" href="#feedback">Feedbacks</a>
+      <a onclick="linkfecharmenu()" href="#contact">Contatos</a>
+    </ul>
+
+    <div class="buttonMenu">
+      <i onclick="openMenu()" id="btnOpen" class="fas fa-bars"></i>
+      <i onclick="closeMenu()" id="btnClose" class="fas fa-times"></i>
+    </div>
+
+  </nav>
+
+  <!-------- BANNER --------->
+  <section class="panel" id="home">
+    <div class="banner">
+
+      <p>Olá, eu me chamo</p>
+      <h1>Higor Macimo</h1>
+      <h5>Designer Gráfico</h5>
+
+      <a href="#about" class="btn-all">
+        Saiba mais
+      </a>
+
+    </div>
+
+    <div class="custom-shape-divider-bottom-1663443106">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+    <div class="down-arrow">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+
+  </section>
+
+  <!-------- SERVICES --------->
+  <section class="panel" id="services">
+
+    <div class="alltitles">
+      <h1>ALGUNS SERVIÇOS</h1>
+      <p>Arraste o carrossel</p>
+    </div>
+
+    <div class="carrossel">
+      <li>
+        <img src="assets/img/portfolio/Artes/compresspng/asas-min.png" alt="">
+      </li>
+      <li>
+        <img src="assets/img/portfolio/Artes/compresspng/caipirinha-min.png" alt="">
+      </li>
+      <li>
+        <img src="assets/img/portfolio/Artes/compresspng/dfb-min.png" alt="">
+      </li>
+      <li>
+        <img src="assets/img/portfolio/Artes/compresspng/Hamburgueria - (1)-min.png" alt="">
+      </li>
+      <li>
+        <img src="assets/img/portfolio/Artes/compresspng/jhu-min.png" alt="">
+      </li>
+      <li>
+        <img src="assets/img/portfolio/Artes/compresspng/Sabor em dobro-min.png" alt="">
+      </li>
+  </div>
+
+  <ul>
+    <li></li>
+  </ul>
+
+  </section>
+
+  <!-------- ABOUT US --------->
+  <section class="panel" id="about">
+
+    <div class="sobre">
+      <figure>
+        <img src="assets/img/sobrenos/qqq.png" alt="">
+        <div>
+          <h1>Higor Macimo</h1>
+          <h3>Designer Gráfico</h3>
+        </div>
+      </figure>
+      <figcaption>
+        <h1>Higor Macimo</h1>
+        <h3>Designer Gráfico</h3>
+        <p>
+          Somos da equipe <b>Malistmind</b> e temos um objetivo em mente:que nossos projetos façam a sua empresa <b>alavancar</b> dentro e fora das mídias socias.
+          
+          Podemos transformar seus sentimentos e ideias em um design, representando sua marca de maneira inteligente com projetos criativos e um ótimo <b>relacionamento</b> com os clientes.
+        </p>
+      </figcaption>
+    </div>
+  </section>
+
+  <!-------- PORTÓLIO --------->
+  <section class="panel" id="portfolio">
+
+    <div class="btn-portfolio">
+      <button id="button-active" onclick="mudarPortArtes()">Artes</button>
+      <button id="button-active" onclick="mudarPortCardapio()">Cardápios</button>
+      <button id="button-active" onclick="mudarPortIdvisuais()">Id Visuais</button>
+    </div>
+
+    
+    <section class="box-port" id="artes">
+      <ul class="list-port">
+        <li>
+          <img src="assets/img/portfolio/Artes/compresspng/asas-min.png" alt="asas">
+        </li>
+        <li>
+          <img src="assets/img/portfolio/Artes/compresspng/caipirinha-min.png" alt="asas">
+        </li>
+        <li>
+          <img src="assets/img/portfolio/Artes/compresspng/dfb-min.png" alt="asas">
+        </li>
+        <li>
+          <img src="assets/img/portfolio/Artes/compresspng/Hamburgueria - (1)-min.png" alt="asas">
+        </li>
+        <li>
+          <img src="assets/img/portfolio/Artes/compresspng/jhu-min.png" alt="asas">
+        </li>
+        <li>
+          <img src="assets/img/portfolio/Artes/compresspng/lok-min.png" alt="asas">
+        </li>
+        <li class="noneImage">
+          <img src="assets/img/portfolio/Artes/compresspng/O mais pedido-min.png" alt="asas">
+        </li>
+        <li class="noneImage">
+          <img src="assets/img/portfolio/Artes/compresspng/Sabor em dobro-min.png" alt="asas">
+        </li>
+      </ul>
+  
+      <button class="btn-all"> Ver mais</button>
+    </section>
+
+    <section class="box-port" id="cardapios">
+      <ul class="list-port">
+        <li>
+          <img src="assets/img/portfolio/Cardápios/Cadarp Mockup.png" alt="asas">
+        </li>
+      </ul>
+    </section>
+
+    <section class="box-port" id="idvisuais">
+      <ul class="list-port">
+        <li>
+          <img src="assets/img/portfolio/ID VISUAIS/Cris Vargas/MC1.png" alt="asas">
+        </li>
+        <li>
+          <img src="assets/img/portfolio/ID VISUAIS/Félix Delivery/Ap1.png" alt="asas">
+        </li>
+        <li>
+          <img src="assets/img/portfolio/ID VISUAIS/Enough Dreams/Capa Disco.png" alt="asas">
+        </li>
+        <li>
+          <img src="assets/img/portfolio/ID VISUAIS/Félix Sports/Pagamentos.png" alt="asas">
+        </li>
+        <li>
+          <img src="assets/img/portfolio/ID VISUAIS/Félix Delivery/Vehicle PSD Mockup.png" alt="asas">
+        </li>
+        <li>
+          <img src="assets/img/portfolio/ID VISUAIS/New Look/MCK 2.png" alt="asas">
+        </li>
+        <li class="noneImage">
+          <img src="assets/img/portfolio/ID VISUAIS/Santiago/7.png" alt="asas">
+        </li>
+        <li class="noneImage">
+          <img src="assets/img/portfolio/ID VISUAIS/Enough Dreams/Man Shirt.png" alt="asas">
+        </li>
+      </ul>
+  
+      <button class="btn-all"> Ver mais</button>
+    </section>
+
+  </section>
+
+  <!-------- FEEDBACKS --------->
+  <section class="panel" id="feedback">
+
+    <div class="alltitles">
+      <h1>FEEDBACKS</h1>
+      <p>Clientes satisfeitos</p>
+    </div>
+
+    <div class="carrtwo">
+      <li>
+        <figure>
+            <img src="https://static01.nyt.com/images/2022/07/14/fashion/07musk/07musk-mediumSquareAt3X.jpg" alt="">
+          </figure>
+          <figcaption>
+          <h1>@elonmusk.ab</h1>
+          <hr>
+          <p>
+            I hate when people confuse education with intelligence, you can have a bachelor's degree and still be an idiot.
+          </p>
+        </figcaption>
+      </li>
+      <li>
+        <figure>
+          <img src="https://www.cnet.com/a/img/resize/9c9c60959e9c6d23cb3ac897b5551349416adb6f/2014/12/10/cb230aaf-9123-450d-8310-039ac9f7433f/20141210-tim-berners-lee-leweb-2014-001.jpg?auto=webp&fit=crop&height=1200&width=1200" alt="">
+        </figure>
+        <figcaption>
+          <h1>@timbernerslee</h1>
+          <hr>
+          <p>
+            I hate when people confuse education with intelligence, you can have a bachelor's degree and still be an idiot.
+          </p>
+        </figcaption>
+      </li>
+      <li>
+        <figure>
+          <img src="https://www.suno.com.br/wp-content/uploads/2021/12/Steve_Jobs.jpg" alt="">
+        </figure>
+        <figcaption>
+          <h1>@stevejobs</h1>
+          <hr>
+          <p>
+            I hate when people confuse education with intelligence, you can have a bachelor's degree and still be an idiot.
+          </p>
+        </figcaption>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/logo/ICON.png" alt="">
+          <h1>@malistmind</h1>
+        </figure>
+        <figcaption>
+          <hr>
+          <p>
+            I hate when people confuse education with intelligence, you can have a bachelor's degree and still be an idiot.
+          </p>
+        </figcaption>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/logo/ICON.png" alt="">
+          <h1>@malistmind</h1>
+        </figure>
+        <figcaption>
+          <hr>
+          <p>
+            I hate when people confuse education with intelligence, you can have a bachelor's degree and still be an idiot.
+          </p>
+        </figcaption>
+      </li>
+  </div>
+  </section>
+
+  <!-------- CONTACT US --------->
+  <section class="panel" id="contact">
+
+    <div class="alltitles">
+      <h1>CONTATE-NOS</h1>
+      <p>Envie-nos uma mensagem</p>
+    </div>
+
+    <form action="" class="contate-nos">
+      <section>
+        <div>
+          <input type="text" name="" id="" placeholder="Nome:">
+          <input type="nome" name="" id="" placeholder="E-mail:">
+        </div>
+        <textarea placeholder="Mensagem"></textarea>
+      </section>
+      <button class="btn-all">Enviar</button>
+    </form>
+
+  </section>
+
+  <!-------- FOOTER --------->
+  <footer>
+    <div>
+      <ul>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-whatsapp"></i></a>
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+      </ul>
+  
+      <p>©Malistmind 2022 - Todos os direitos reservados</p>
+    </div>
+  </footer>
+  
+  
+  <!-------------- SCRIPT SLICK JS ------------------->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <!-------- SCRIPT --------->
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
