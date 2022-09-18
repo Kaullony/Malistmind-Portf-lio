@@ -326,8 +326,6 @@ body{
   color: var(--secondary-color);
 }
 
-
-
 /*********** PORTFÓLIO ************/
 
 #portfolio{
@@ -400,12 +398,24 @@ body{
 
   width: 280px;
   height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-bck);
+  border-radius: 5px;
+}
+
+.list-port li h1{
+  text-transform: uppercase;
+  color: var(--important-color);
+  font-size: 1.4rem;
 }
 
 .list-port li img{
 
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 
 .cardapios{
