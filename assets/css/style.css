@@ -660,6 +660,7 @@ footer ul a svg{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 100px 0px;
   top: 70px;
   left: 0px;
   width: 100%;
@@ -667,6 +668,10 @@ footer ul a svg{
   height: calc(100vh - 70px);
   overflow-y: scroll;
   animation: modalAnimation .3s;
+}
+
+.modals ul{
+  justify-content: left;
 }
 
 @keyframes modalAnimation {
@@ -680,12 +685,7 @@ footer ul a svg{
   font-size: 2rem;
   text-transform: uppercase;
   color: var(--important-color);
-  margin-top: 350px;
-}
-
-.modals .list-port{
-
-  margin: 100px 0px;
+  margin-top: 150px;
 }
 
 #closeModal{
@@ -865,6 +865,17 @@ footer ul a svg{
     font-size: 1rem;
     font-weight: 800;
 
+  }
+
+  /****** MODAL *******/
+
+  #closeModal{
+    width: 70px;
+    height: 70px;
+  }
+
+  .modals h1{
+    font-size: 1.3rem;
   }
 
   /****** BANNER ********/
