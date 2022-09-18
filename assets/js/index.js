@@ -143,3 +143,24 @@ function linkfecharmenu(){
   btnMenuOpen.style.display = 'flex'
   btnMenuClose.style.display = 'none'
 }
+
+// MODAL
+
+const modal = document.getElementById('modalArtes');
+const modalIdVisuais = document.getElementById('modalIdVisuais');
+
+modal.style.display = 'none'
+modalIdVisuais.style.display = 'none'
+
+function openModalArtes(){
+  modal.style.display = 'flex'
+}
+
+function openModalIdVisuais(){
+  modalIdVisuais.style.display = 'flex'
+}
+
+function closeModal(){
+  modal.style.display = 'none'
+  modalIdVisuais.style.display = 'none'
+}
