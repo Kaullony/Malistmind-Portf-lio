@@ -546,6 +546,7 @@ body{
 
   width: 48%;
   height: 60px;
+  max-height: 60px;
   border-radius: 5px;
   border: none;
   color: var(--principal-color);
@@ -559,7 +560,8 @@ body{
 .contate-nos section textarea{
 
   width: 100%;
-  height: 75%;
+  height: 300px;
+  max-height: 300px;
   outline: none;
   margin-top: 10px;
   resize: none;
@@ -603,6 +605,7 @@ footer{
   background-position: center;
   width: 100%;
   height: 200px;
+  position: relative;
   box-shadow:  0px 0px 5px 0px #000;
 }
 
@@ -645,6 +648,36 @@ footer p{
   margin-top: 20px;
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+footer h2{
+  margin-top: 10px;
+  font-size: 1rem;
+  background-color: #00000090;
+  backdrop-filter: blur(10px);
+  border-top-right-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 300;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+footer h2 a{
+
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+footer h2 a:hover{
+
+  color: var(--important-color);
+  transition: .4s;
+}
+
+footer h2 a:hover i{
+  color: var(--important-color);
+  transition: .4s;
 }
 
 footer ul a svg{
