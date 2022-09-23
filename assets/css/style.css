@@ -25,6 +25,8 @@
 /*********** BODY ************/
 body{
   width: 100%;
+  height: max-content;
+  position: absolute;
   background-color: var(--principal-bck);
 }
 ::-webkit-scrollbar{
@@ -170,7 +172,7 @@ body{
 /*********** ALL PANELS ************/
 .panel{
   width: 100%;
-  height: 100vh;
+  height: 700px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -562,8 +564,7 @@ body{
 .contate-nos section textarea{
 
   width: 100%;
-  height: 300px;
-  max-height: 140px;
+  height: 75%;
   outline: none;
   margin-top: 10px;
   resize: none;
