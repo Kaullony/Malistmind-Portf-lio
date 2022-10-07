@@ -1134,6 +1134,11 @@ footer ul a svg{
     width: 100%;
   }
 
+  #services{
+
+    height: 650px;
+  }
+
 
   /****** SOBRE ********/
 
@@ -1190,10 +1195,18 @@ footer ul a svg{
     width: 95%;
   }
 
+  #feedback{
+    height: 600px;
+  }
+
+  #contact{
+    height: 600px;
+  }
+
   /****** PORTFOLIO ********/
 
   #portfolio{
-    height: 150vh;
+    height: 900px;
   }
   
   .btn-portfolio button{
