@@ -336,8 +336,8 @@ body{
 .sobre figcaption p{
 
   margin-top: 30px;
-  font-size: 1.5rem;
-  line-height: 34px;
+  font-size: 1rem;
+  line-height: 25px;
   color: var(--secondary-color);
 }
 
@@ -783,9 +783,9 @@ footer ul a svg{
 
   .sobre figcaption p{
 
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 25px;
-    width: 80%;
+    width: 100%;
   }
 
   /****** PORTFOLIO ********/
@@ -1008,8 +1008,8 @@ footer ul a svg{
 
   .sobre figcaption p{
 
-    font-size: 1.4rem;
-    line-height: 27px;
+    font-size: 1rem;
+    line-height: 23px;
     margin-left: 30px;
     width: 100%;
 
@@ -1138,7 +1138,7 @@ footer ul a svg{
   /****** SOBRE ********/
 
   #about{
-    height: 150vh;
+    height: 1100px;
   }
 
   .sobre{
@@ -1150,10 +1150,10 @@ footer ul a svg{
 
   .sobre figure{
 
-    height: 400%;
-    height: 50%;
-  }
+    height: 500px;
 
+  }
+  
   .sobre figure img{
 
     width: 210%;
@@ -1164,18 +1164,22 @@ footer ul a svg{
     width: 210%;
     border-radius: 5px;
   }
-
+  
   .sobre figcaption{
 
     width: 100%;
-    height: 50%;
-    margin-top: 60px;
+    height: 500px;
+    margin-top: 0px;
     display: flex;
+  }
+
+  .panel{
+    height: 700px;
   }
 
   .sobre figcaption p{
 
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 27px;
     width: 100%;
     margin-left: 0px;
@@ -1331,10 +1335,6 @@ footer ul a svg{
 
   #home{
     height: 100vh;
-  }
-  
-  .panel{
-    height: 90vh;
   }
 
   .banner h1{
