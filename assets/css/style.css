@@ -355,6 +355,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: red;
 }
 
 .box-port button{
@@ -403,9 +404,8 @@ body{
   width: 88%;
   height: 85vh;
   margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid: auto-flow;
   gap: 10px;
 }
 
