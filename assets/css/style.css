@@ -1285,9 +1285,13 @@ footer ul a svg{
   }
 
   /****** SERVIÇOS ********/
+  #services{
+
+    height: 620px;
+  }
 
   .carrossel{
-    margin-top: -30px;
+    margin-top: -20px;
     width: 95%;
   }
 
@@ -1312,7 +1316,7 @@ footer ul a svg{
 
   .sobre figure{
 
-    height: 400%;
+    height: 400px;
     height: 50%;
   }
 
@@ -1320,6 +1324,7 @@ footer ul a svg{
 
     width: 210%;
     height: 380px;
+    margin-top: 0px;
   }
 
   .sobre figure div{
@@ -1331,16 +1336,17 @@ footer ul a svg{
 
     width: 100%;
     height: 50%;
-    margin-top: 60px;
+    margin-top: -20px;
     display: flex;
   }
 
   .sobre figcaption p{
 
-    font-size: 1.2rem;
-    line-height: 27px;
+    font-size: 1rem;
+    line-height: 18px;
     width: 100%;
     margin-left: 0px;
+    margin-top: 70px;
 
   }
 
