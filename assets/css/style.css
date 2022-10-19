@@ -282,7 +282,7 @@ body{
 .sobre {
 
   width: 88%;
-  height: 500px;
+  height: 550px;
   margin-top: 80px;
   display: flex;
 
@@ -300,7 +300,7 @@ body{
 }
 
 .sobre figure img{
-
+  
   width: 100%;
   height: 100%;
   border-radius: 5px;
@@ -308,7 +308,7 @@ body{
 
 .sobre figcaption{
   width: 48%;
-  height: 500px;
+  height: 550px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -340,8 +340,8 @@ body{
 .sobre figcaption p{
 
   margin-top: 30px;
-  font-size: 1.5rem;
-  line-height: 34px;
+  font-size: 1.2rem;
+  line-height: 23px;
   color: var(--secondary-color);
 }
 
@@ -459,75 +459,100 @@ body{
 .carrtwo{
 
   width: 90%;
-  display: flex;
-}
-
-.carrtwo li{
-
-  margin: 15px;
-  height: 400px;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: var(--principal-bck);
-}
-
-.carrtwo figure{
-
-  width: 100%;
-  height: 40%;
-  display: flex;
-  align-items:flex-end;
-  justify-content: center;
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(3, 10fr);
+  grid-template-rows: repeat(1);
   gap: 20px;
 }
 
-.carrtwo figure h1{
-  font-size: 1.2rem;
-  margin-left: 10px;
-}
-
-.carrtwo figure img{
-
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  background-color: var(--principal-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 3px solid var(--important-color);
-}
-
-.carrtwo figcaption{
-
+.carrtwo li{
+  
   width: 100%;
-  height: 60%;
+  height: 400px;
+  gap: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: var(--principal-bck);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
-.carrtwo figcaption h1{
-  font-size: 1.2rem;
-  font-weight: 500;
+.carrtwo li figure{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.carrtwo figcaption hr{
-
-  width: 60%;
-  height: 2px;
-  margin: 25px 0px;
-  border: none;
-  background-color: #f15a2490;
+.carrtwo li figure div{
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--important-color);
+  border-radius: 100%;
 }
 
-.carrtwo figcaption p{
+.carrtwo li figcaption{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  
+  flex-direction: column;
+  gap: 20px;
 
+}
+
+
+.carrtwo li figcaption p{
+  font-size: 1rem;
   width: 80%;
-  text-align: center;
   font-weight: 600;
-  color: var(--secondary-color);
+  margin-left: 30px;
+}
+
+.carrtwo li figcaption p b{
+
+  color: var(--important-color);
+}
+
+.carrtwo li figcaption h6{
+  font-size: 1rem;
+  font-weight: 800;
+  margin-left: 30px;
+  color: var(--important-color);
+  position: absolute;
+  bottom: 20px;
+}
+
+#feedback{
+
+  height: max-content;
+  padding-bottom: 40px;
+}
+
+#box-apoio{
+
+  display: none;
+}
+
+.imageOne{
+  background-image: url(https://veja.abril.com.br/wp-content/uploads/2016/05/steve-jobs-apple-23-original1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.imageTwo{
+  background-image: url(https://i.pinimg.com/280x280_RS/b2/85/c6/b285c6d1d3a67100eb35b43d0f25763c.jpg);
+  background-size: cover;
+}
+
+.imageTree{
+  background-image: url(https://www.frasesypensamientos.com.ar/imagenes/autor/charles-eames.jpg);
+  background-size: cover;
 }
 
 /*********** CONTACT US ************/
@@ -719,7 +744,7 @@ footer ul a svg{
 .panels-artes ul{
 
   width: 88%;
-  height:max-content;
+  height:max-content;background-color: red;
   display: grid;
   grid-template-columns: repeat(4, 10fr);
   grid-template-rows: repeat(1);
@@ -762,7 +787,7 @@ footer ul a svg{
 
   grid-column: 1 / span 2;
   grid-row: 1 / span 1;
-  background-color: red;
+  
   font-size: 2rem;
   display: flex;
   align-items: center;
@@ -904,6 +929,13 @@ footer ul a svg{
 @media all and (max-width: 768px){
 
   /****** MENU ********/
+
+  .carrtwo{
+
+    grid-template-columns: repeat(2, 10fr);
+    grid-template-rows: repeat(1);
+    gap: 20px;
+  }
 
   .menu{
 
@@ -1138,6 +1170,30 @@ footer ul a svg{
 }
 
 @media all and (max-width: 450px){
+
+  .carrtwo{
+
+    width: 90%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(1, 10fr);
+    grid-template-rows: repeat(1);
+    gap: 20px;
+    
+  }
+
+  .carrtwo li{
+    width: 95%;
+    margin-inline: auto;
+  }
+
+  .carrtwo figure{
+    margin-top: 30px;
+  }
+
+  .carrtwo figcaption{
+    margin-bottom: 20px;
+  }
 
   .panels-artes ul{
 
