@@ -340,7 +340,7 @@ body{
 .sobre figcaption p{
 
   margin-top: 30px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 23px;
   color: var(--secondary-color);
 }
@@ -881,8 +881,8 @@ footer ul a svg{
 
   .sobre figcaption p{
 
-    font-size: 1.2rem;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 15px;
     width: 80%;
   }
 
@@ -1108,9 +1108,10 @@ footer ul a svg{
 
   .sobre figcaption p{
 
-    font-size: 1.4rem;
-    line-height: 27px;
+    font-size: .9rem;
+    line-height: 20px;
     margin-left: 30px;
+    margin-bottom: 30px;
     width: 100%;
 
   }
@@ -1213,7 +1214,7 @@ footer ul a svg{
 
   
 .item01{
-  grid-column: 1 / span 1;
+  grid-column: 1 / span 2;
   grid-row: 0 / span 1; 
 }
 
@@ -1357,12 +1358,35 @@ footer ul a svg{
 
   /****** PORTFOLIO ********/
 
+  #portfolio{
+
+    height: max-content;
+    padding-bottom: 50px;
+  }
+
   .list-port{
 
     grid-template-columns: repeat(2, 10fr);
     grid-template-rows: repeat(0);
+    height: max-content;
     
   }
+
+  .list-port li{
+    height: 200px;
+  }
+
+  
+.card-index-one{
+  grid-column: 0 / span 0;
+  grid-row: 0 / span 0; 
+}
+
+.itemCarr{
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 0; 
+  height: 300px;
+}
   /****** CONTATOS ********/
 
   .contate-nos{
