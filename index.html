@@ -328,15 +328,18 @@
       <p>Envie-nos uma mensagem</p>
     </div>
 
-    <form action="" class="contate-nos">
+
+    <form method="POST" action="" class="contate-nos">
       <section>
         <div>
-          <input type="text" name="" id="" placeholder="Nome:">
-          <input type="nome" name="" id="" placeholder="E-mail:">
+          <input type="text" name="nome_usuario" required placeholder="Nome:">
+          <input type="nome" name="email_usuario" required placeholder="E-mail:">
         </div>
-        <textarea placeholder="Mensagem"></textarea>
+        <textarea name="mensagem" placeholder="Mensagem" required ></textarea>
       </section>
-      <button class="btn-all">Enviar</button>
+
+      <button type="submit" class="btn-all" name="SendCadMsg">Enviar</button>
+
     </form>
 
   </section>
