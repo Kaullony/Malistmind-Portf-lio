@@ -328,17 +328,18 @@
       <p>Envie-nos uma mensagem</p>
     </div>
 
-
-    <form method="POST" action="" class="contate-nos">
+    <form action="https://formsubmit.co/kaullony.brito@gmail.com" class="contate-nos" method="POST">
       <section>
         <div>
-          <input type="text" name="nome_usuario" required placeholder="Nome:">
-          <input type="nome" name="email_usuario" required placeholder="E-mail:">
+          <input type="text" name="name" required placeholder="Nome:">
+          <input type="nome" name="email" required placeholder="E-mail:">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
         </div>
         <textarea name="mensagem" placeholder="Mensagem" required ></textarea>
       </section>
 
-      <button type="submit" class="btn-all" name="SendCadMsg">Enviar</button>
+      <button type="submit" class="btn-all">Enviar</button>
 
     </form>
 
