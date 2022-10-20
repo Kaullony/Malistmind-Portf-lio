@@ -846,6 +846,27 @@ footer ul a svg{
   text-transform: uppercase;
 }
 
+/************ PÁGINA DE OBRIGADO **************/
+
+.pageObrigado{
+  width: 70%;
+  height: 60%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageObrigado img{
+  width: 25%;
+}
+
+.pageObrigado p{
+  font-size: 1.3rem;
+  margin: 20px 0px;
+}
+
 /*********** RESPONSIVE ************/
 @media all and (max-width: 1024px){
 
