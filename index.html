@@ -2,8 +2,16 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="MALISTMIND">
+  <meta property="og:locale" content="pt_BR"><meta property="article:author" content="0000">
+  <meta property="article:publisher" content="0000">
+  <meta property="fb:app_id" content="308995311173084">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.portal.ceasadf.com.br">
+  <meta property="og:title" content="PORTAL DE SERVIÇOS - Centrais de Abastecimento do Distrito Federal S/A">
+  <meta property="og:description" content="O Portal de Serviços contém serviços destinados ao público da Ceasa-DF como: 2ª via de boletos, consulta de preços diários, catálogo de comerciantes, cadastro na lista de espera e muito mais...">
+  <meta property="og:url" content="assets/img/logo/ICON.png">
+  <meta property="og:image" content="assets/img/logo/ICON.png">
   <!-------- LINK CSS --------->
   <link rel="stylesheet" href="assets/css/style.css">
   <!----- LINK SLICK JS ------>
@@ -332,7 +340,7 @@
       <section>
         <div>
           <input type="text" name="name" required placeholder="Nome:">
-          <input type="nome" name="email" required placeholder="E-mail:">
+          <input type="nome" name="email" required placeholder="E-mail:" onblur="validacaoEmail(f1.email)">
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
         </div>
@@ -342,6 +350,7 @@
       <button type="submit" class="btn-all">Enviar</button>
 
     </form>
+
 
   </section>
 
@@ -369,12 +378,10 @@
     </div>
   </footer>
 
-
   <!-------------- BOTÃO WHATSAPP ------------------->
   <a href="https://api.whatsapp.com/send?phone=556196126045&" target="about_blank" rel="noopener" class="btn-whatsapp">
     <img src="assets/img/logo/whatsapp-logo-1.png" alt="">
   </a>
-  
   
   <!-------------- SCRIPT SLICK JS ------------------->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
