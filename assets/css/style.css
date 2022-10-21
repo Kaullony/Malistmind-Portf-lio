@@ -1192,10 +1192,7 @@ footer ul a svg{
     bottom: 10px;
   }
 
-}
-
-@media all and (max-width: 450px){
-
+  
   .carrtwo{
 
     width: 90%;
@@ -1447,7 +1444,12 @@ footer ul a svg{
     left: 0%;
   }
 
+
 }
+
+/*@media all and (max-width: 450px){
+
+}*/
 
 @media all and (max-width: 375px){
 
